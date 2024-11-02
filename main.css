@@ -1,13 +1,63 @@
-/* custom-button.css */
-.my-button {
-    background-color: #007bff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+a,
+input,
+select {
+    font-family: "Roboto", sans-serif !important;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
     color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.my-button:hover {
-    background-color: #0056b3;
-}
+    /* cursor: pointer; */
+  }
+  
+  
